@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sinema Rezarvasyon</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- sinema ve koltukların kapsayıcısı baslangıc -->
+
+    <div class="container">
+      <div class="screen">
+        <img class="movie-img" src="HarryPotter.jpg" alt="" />
+      </div>
+      <!-- koltukların oldugu sıra -->
+      <div class="seastRow">
+        <!-- her bir koltuk -->
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+      </div>
+      <!-- koltukların oldugu sıra -->
+      <div class="seastRow">
+        <!-- her bir koltuk -->
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+      </div>
+      <!-- koltukların oldugu sıra -->
+      <div class="seastRow">
+        <!-- her bir koltuk -->
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+      </div>
+      <!-- koltukların oldugu sıra -->
+      <div class="seastRow">
+        <!-- her bir koltuk -->
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+      </div>
+      <!-- koltukların oldugu sıra -->
+      <div class="seastRow">
+        <!-- her bir koltuk -->
+        <div class="seat reserved"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
+      </div>
+    </div>
+
+    <!-- sinema ve koltukların kapsayıcısı bitis -->
+
+    <!-- film bari  -->
+
+    <div class="movie-list">
+      <select id="movie">
+        <option disabled>Film Seçiniz</option>
+        <option value="80">Harry Potter</option>
+        <option value="120">War Craft</option>
+        <option value="150">Yüzüklerin Efendisi</option>
+      </select>
+    </div>
+
+    <!-- film bari bitis -->
+
+    <!-- koltuklar için renk bilgi alanı -->
+
+    <ul class="info">
+        <li><div class="seat reserved"><i class="fa-solid fa-chair"></i></div>
+        Rezerve Koltuk
+        </li>
+        <li><div class="seat selected"><i class="fa-solid fa-chair"></i></div>
+        Seçilen Koltuk
+        </li>
+        <li><div class="seat"><i class="fa-solid fa-chair"></i></div>
+        Boş Koltuk
+        </li>
+    </ul>
+
+    <!-- koltuklar için renk bilgi alanı bitis -->
+
+    <!-- Toplam tutar bilgisi  -->
+
+    <p class="infoText">
+        <span id="seatCount">9</span> Koltuk için toplam ücret <span id="totalPrice">720</span> TL
+    </p>
+
+
+
+    <!-- script baglantısı -->
+    <script src="app.js"></script>
+  </body>
+</html>
